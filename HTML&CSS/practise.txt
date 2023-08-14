@@ -29,4 +29,4 @@
 => This is a two dimensional layout model to responsive the box content. 
 
 13. Media Queries
-=> media queries used to responsive website as changes in screen size. this convert the content within a specific range of pixel size. This used to changes the content properties when the display size changes.  
+=> media queries used to responsive website as changes in screen size. this convert the content within a specific range of pixel size. This used to changes the content properties when the display size changes.  this helps to makes an website responsive and look nice for website to visit from any kind of device. 
