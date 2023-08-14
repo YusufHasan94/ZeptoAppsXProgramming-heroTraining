@@ -1,0 +1,46 @@
+/* css selector */
+h2{
+    color: green;
+}
+.safat{
+    color: red;
+}
+#sohag{
+    color: blue;
+}
+
+/* box-model */
+#box-model{
+    padding: 5px;
+    border: 2px solid red;
+    margin: 25px;
+}
+
+.content-images{
+    width: 100%;
+}
+
+/* flex&grid layout */
+#flex-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#grid-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .user-form{
+        display: flex;
+        flex-direction: column;
+    }
+    #flex-content{
+        flex-direction: column;
+    }
+    #grid-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

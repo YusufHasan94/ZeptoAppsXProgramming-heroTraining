@@ -1,1 +1,32 @@
-1. Semantic tag in HTML
+1. HTML5.
+=> HTML5 is used to make structure and presenting content of a website.  
+2. Semantic tag in HTML.
+=> Semantic tag defines its contain clearly. Example: <form>, <article>, <table>
+3. non-semantic tag in HTML.
+=> Non-semantic tag doesn't define its contain. Example: <div>, <span>
+4. Inline element. 
+=> Inline element takes only needed space and doesn't starts with new line. <a>, <span>, <br>, etc..
+5. Block element.
+=> Block elements start with new line and takes full width.Example: <p>, <div>, etc..
+6. Attribute in html
+=> attribute are special words which is used to provide additional information about the content or used to provide image content. <a>, <img>
+
+8. CSS
+=> Css used to make structure well aligned and gives a nice and organized look to website. There are three types of CSS. Inline CSS, Internal CSS, External CSS.
+
+9. types of selectors in css.
+=> element selector (this use tag name to select the content), 
+   id selector (this use id name to select the content), 
+   class selector (this use class name to select the content)
+
+10. Box model.
+=> In the box model content basically cover with padding, border, and margin.  
+
+11. Flexbox layout in CSS.
+=> This is consider as a flexible box. It gives one dimensional layout model to responsive the box content or box. 
+
+12. Grid layout system in CSS.
+=> This is a two dimensional layout model to responsive the box content. 
+
+13. Media Queries
+=> media queries used to responsive website as changes in screen size. this convert the content within a specific range of pixel size. This used to changes the content properties when the display size changes.  
