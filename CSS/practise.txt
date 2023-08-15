@@ -1,0 +1,7 @@
+1. working on navigation 
+2. Practice CTA in css
+3. practice table
+4. practice grid system 
+5. working on contact form and table 
+6. recap pagination in css
+7. practice responsive web designer
