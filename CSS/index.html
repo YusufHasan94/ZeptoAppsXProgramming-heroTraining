@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice On CSS</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="WebTitle">
+            CSS Designer
+        </h1>
+        <button class="navIcon" id="navIcon">
+            <img src="images/menu.png" class="navIconImg" alt="">
+        </button>
+        <nav class="navigation">
+            <ul class="menuArea">
+                <li class="menuItems"><a href="/">Home</a></li>
+                <li class="menuItems"><a href="#designerInfo">Designer Info</a></li>
+                <li class="menuItems"><a href="#blogsContainer">Blogs</a></li>
+                <li class="menuItems"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="bannerImg">
+                <img src="images/designer.png" alt="">
+            </div>
+            <div class="bannerContent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore iste minus voluptatem nihil, incidunt voluptatibus, amet laboriosam veritatis perferendis quo. Sunt dolorum, itaque impedit voluptas blanditiis beatae ducimus. Sed reiciendis ipsa neque reprehenderit quam deleniti sit! Quidem officiis itaque earum architecto enim omnis impedit placeat? Deserunt iste at blanditiis.</p>
+                <a 
+                    href="https://www.designerblogs.com/" 
+                    target="_blank" 
+                    class="cta-btn">
+                    Browse More
+                </a>
+            </div>
+        </div>
+        <div class="designerInfo" id="designerInfo">
+            <h1 class="sectionTitle">Designer All Information</h1>
+            <table class="designerTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Working Experience</th>
+                    <th>Mobile Number</th>
+                    <th>portfolio link</th>
+                </tr>
+                <tr>
+                    <td>Mr. A</td>
+                    <td>2 years</td>
+                    <td>+84100000</td>
+                    <td><a href="#">browse</a></td>
+                </tr>
+                <tr>
+                    <td>Mr. B</td>
+                    <td>0.5 years</td>
+                    <td>+85000000</td>
+                    <td><a href="#">browse</a></td>
+                </tr>
+                <tr>
+                    <td>Mr. C</td>
+                    <td>1 years</td>
+                    <td>+82100000</td>
+                    <td><a href="#">browse</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="blogsContainer" id="blogsContainer"> 
+            <h1 class="sectionTitle">Blogs</h1>
+            <div>
+                <div class="content-box">
+                    <div class="box-content">
+                        <div class="blogs">
+                            <img src="images/designer.png" alt="">
+                            <h1>New Design 1</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer2.png" alt="">
+                            <h1>New Design 2</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer.png" alt="">
+                            <h1>New Design 3</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-box" style="display: none;">
+                    <div class="box-content">
+                        <div class="blogs">
+                            <img src="images/designer2.png" alt="">
+                            <h1>New Design 4</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer.png" alt="">
+                            <h1>New Design 5</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer2.png" alt="">
+                            <h1>New Design 6</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-box" style="display: none;">
+                    <div class="box-content">
+                        <div class="blogs">
+                            <img src="images/designer2.png" alt="">
+                            <h1>New Design 7</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer.png" alt="">
+                            <h1>New Design 8</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                        <div class="blogs">
+                            <img src="images/designer.png" alt="">
+                            <h1>New Design 9</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, fugit numquam. Deserunt magni nesciunt error vero eius dolorum dignissimos blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <span class="pagination-item" onclick="showPage(1)">1</span>
+                    <span class="pagination-item" onclick="showPage(2)">2</span>
+                    <span class="pagination-item" onclick="showPage(3)">3</span>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h1 class="sectionTitle">Contact With Us</h1>
+            <div class="contactArea">
+                <div class="messageArea">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Enter Name">
+                        <input type="number" name="number" placeholder="Enter Number">
+                        <input type="email" name="email" placeholder="Enter Email address">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Enter Message here"></textarea>
+                        <div class="submitBtnArea">
+                            <input type="submit" value="Send Message" class="submitBtn">
+                        </div>
+                    </form>
+                </div>
+                <div class="contactInfo">
+                    <h1>CSS Designer</h1>
+                    <span>Email: designer@gmail.com</span>
+                    <div class="socialMedia">
+                        <a href="#">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/telegram.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2023 All rights reserve
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
