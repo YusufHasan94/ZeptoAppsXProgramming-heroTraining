@@ -1,0 +1,6 @@
+1. recap javascript events
+2. recap javascript variables
+3. practice js array & object
+4. recap js loop (for loop, while, do while).
+5. debugging using console, breakpoints.
+6.  scopes -> scopes are three types i. global scope, ii. local scope. iii. closure
