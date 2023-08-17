@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Travel Adventures",
+        "description": "Explore the world through our travel experiences.",
+        "images": [
+          "https://img.freepik.com/free-vector/hand-drawn-world-book-day-vertical-poster-template_52683-82879.jpg?w=740&t=st=1692285518~exp=1692286118~hmac=51533f4bd490064c72d46f9abac8009ba080fef06b49ba68d6e7f35e303ca23a",
+          "https://example.com/images/blog1_image2.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tech Insights",
+        "description": "Stay updated with the latest tech trends and news.",
+        "images": [
+          "https://img.freepik.com/free-vector/hand-drawn-world-book-day-background_23-2148099905.jpg?w=740&t=st=1692285560~exp=1692286160~hmac=b00a312d810f55cd6c5bc4a0eb9b572610ad29143df1e707d09d294d154e7450",
+          "https://example.com/images/blog2_image2.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Healthy Living",
+        "description": "Tips and tricks for maintaining a healthy lifestyle.",
+        "images": [
+          "https://img.freepik.com/free-photo/open-book-with-flowers-arrangement_23-2149871456.jpg?w=740&t=st=1692285580~exp=1692286180~hmac=324b41d2a1f124e1ed47f1e748fead7193cd2ec86aab816b993194987f400eb8",
+          "https://example.com/images/blog3_image2.jpg"
+        ]
+      }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "The Adventure Chronicles",
+        "writer": "Alexandra Smith",
+        "images": {
+        "cover": "https://img.freepik.com/free-vector/hand-drawn-international-literacy-day_52683-42390.jpg?w=740&t=st=1692277949~exp=1692278549~hmac=3dfaaebd7155649a9c6a4e2777ab0787f15ddf7cc88804be137341a1cca06c38",
+        "thumbnail": "https://example.com/images/adventure-chronicles-thumbnail.jpg"
+        },
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "name": "Beyond the Stars",
+        "writer": "Michael Johnson",
+        "images": {
+        "cover": "https://img.freepik.com/free-vector/flat-world-book-day-lettering_52683-82976.jpg?w=740&t=st=1692277996~exp=1692278596~hmac=8dd4ab8437d32ab70334d68776a61814fa36b6449d5a83a9fb011ee541f9045c",
+        "thumbnail": "https://example.com/images/beyond-the-stars-thumbnail.jpg"
+        },
+        "price": 24.95
+    },
+    {
+        "id": 3,
+        "name": "Echoes of Eternity",
+        "writer": "Emily Roberts",
+        "images": {
+        "cover": "https://img.freepik.com/premium-psd/mockup-book-with-floating-position-open-cover_456052-392.jpg?w=740",
+        "thumbnail": "https://example.com/images/echoes-of-eternity-thumbnail.jpg"
+        },
+        "price": 17.50
+    },
+    {
+        "id": 4,
+        "name": "The Enchanted Garden",
+        "writer": "Isabella Anderson",
+        "images": {
+        "cover": "https://img.freepik.com/premium-psd/book-mockup-with-two-stacked-books_456052-391.jpg?w=740",
+        "thumbnail": "https://example.com/images/enchanted-garden-thumbnail.jpg"
+        },
+        "price": 14.99
+    },
+    {
+        "id": 5,
+        "name": "City of Shadows",
+        "writer": "David Mitchell",
+        "images": {
+        "cover": "https://img.freepik.com/free-vector/hand-drawn-international-literacy-day_52683-42390.jpg?w=740&t=st=1692277949~exp=1692278549~hmac=3dfaaebd7155649a9c6a4e2777ab0787f15ddf7cc88804be137341a1cca06c38",
+        "thumbnail": "https://example.com/images/city-of-shadows-thumbnail.jpg"
+        },
+        "price": 21.95
+    },
+    {
+        "id": 6,
+        "name": "Waves of Destiny",
+        "writer": "Sophia Ramirez",
+        "images": {
+        "cover": "https://img.freepik.com/free-vector/flat-world-book-day-lettering_52683-82976.jpg?w=740&t=st=1692277996~exp=1692278596~hmac=8dd4ab8437d32ab70334d68776a61814fa36b6449d5a83a9fb011ee541f9045c",
+        "thumbnail": "https://example.com/images/waves-of-destiny-thumbnail.jpg"
+        },
+        "price": 16.75
+    }
+]

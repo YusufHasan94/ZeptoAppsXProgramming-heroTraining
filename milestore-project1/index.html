@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Book Store</title>
+</head>
+<body>
+    <header>
+        <nav class="navBar">
+            <div class="navTitle">
+                <span><img src="images/openBook.png" class="navIcon" alt=""></span>
+                <h2>Book Gallery</h2>
+            </div>
+            <ul class="menuItems" id="menuItems">
+                <button class="closeIcon" id="closeIcon">
+                    <img src="images/x-mark.png"  alt="">
+                </button>
+                <li class="menuItem">
+                    <a href="/">Home</a>
+                </li>
+                <li class="menuItem">
+                    <a href="#bestBooks">Books</a>
+                </li>
+                <li class="menuItem">
+                    <a href="">Blog</a>
+                </li>
+                <li class="menuItem">
+                    <a href="">About</a>
+                </li>
+                <li class="menuItem">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <div class="cart">
+                <a href="">
+                    <img src="images/shoppingCart.png" class="cartIcon" alt="">
+                </a>
+                <button class="responsiveNavIcon" id="responsiveNavIcon">
+                    <img src="images/menu.png"  alt="">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="allSectionContainer">
+            <div class="bannerContainer">
+                <img src="https://img.freepik.com/free-vector/education-template-vector-with-books-ceiling-lamp_53876-125958.jpg?w=1380&t=st=1692250634~exp=1692251234~hmac=793054f1eb04eb1ed4f934d0c3b87eb823a7a5b526a48f8c601b989d6a583adc" alt="">
+            </div>
+            <div class="bestBooks" id="bestBooks">
+                <h1>Best Selling Books</h1>
+                <div class="topBooksContainer" id="topBooksContainer">
+
+                </div>
+            </div>
+            <div class="blogsContainer" id="blogsContainer"> 
+                <h1 class="sectionTitle" style="text-align: center;">Blogs</h1>
+                <div>
+                    <div class="content-box" id="blogsContent">
+                        <div class="box-content" id="box-content">
+
+                        </div>
+                    </div>
+                    
+                    <div class="content-box" style="display: none;">
+                        <div class="box-content">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="content-box" style="display: none;">
+                        <div class="box-content">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="pagination">
+                        <span class="pagination-item" onclick="showPage(1)">1</span>
+                        <span class="pagination-item" onclick="showPage(2)">2</span>
+                        <span class="pagination-item" onclick="showPage(3)">3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact" id="contact">
+                <h1 class="sectionTitle" style="text-align: center;">Contact With Us</h1>
+                <div class="contactArea">
+                    <div class="messageArea">
+                        <form action="">
+                            <input type="text" name="name" placeholder="Enter Name">
+                            <input type="number" name="number" placeholder="Enter Number">
+                            <input type="email" name="email" placeholder="Enter Email address">
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Enter Message here"></textarea>
+                            <div class="submitBtnArea">
+                                <input type="submit" value="Send Message" class="submitBtn">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contactInfo">
+                        <h1>Book Gallery</h1>
+                        <span>Email: book@gmail.com</span>
+                        <div class="socialMedia">
+                            <a href="#">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/youtube.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/linkedin.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

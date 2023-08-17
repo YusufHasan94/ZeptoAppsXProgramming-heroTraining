@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+header{
+    background-color: #fef4f496;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;    
+}
+.navBar{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    position: relative;
+}
+.navTitle{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navIcon,.cartIcon, .responsiveNavIcon>img{
+    width: 40px;
+}
+.menuItems{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+.menuItem>a{
+    text-decoration: none;
+}
+.menuItem>a:hover{
+    color: #9c4545;
+}
+.responsiveNavIcon{
+    display: none;
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+}
+.cart{
+    display: flex;
+}
+.cart>a{
+    text-decoration: none;
+}
+.closeIcon{
+    display: none;
+}
+
+/* main section */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.allSectionContainer{
+    width: 1024px;
+}
+.bannerContainer>img{
+    width: 100%;
+}
+
+.bestBooks{
+    margin: 20px 0;
+    padding: 10px;
+
+}
+.bestBooks>h1{
+    text-align: center;
+}
+
+.topBooksContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.contactArea{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.messageArea{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.messageArea>form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+}
+.messageArea>form input,textarea{
+    padding: 10px;
+    border-radius: 25px;
+}
+.submitBtnArea{
+    text-align: center;
+}
+.submitBtn{
+    width: 50%;
+    background-color: #7e4040;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blogsContainer{
+    padding: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}  
+.pagination-item {
+margin: 0 5px;
+padding: 5px 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #f9f9f9;
+cursor: pointer;
+}
+.pagination-item:hover {
+background-color: #ddd;
+}
+.box-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.blogs>img{
+    width: 100%;
+    height: 300px;
+}
+
+.contactInfo{
+    width: 50%;
+    text-align: center;
+}
+.contactInfo h1{
+    margin: 0;
+    font-size: 22px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.socialMedia a img{
+width: 25px;
+}
+.socialMedia a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+    .responsiveNavIcon{
+        display: block;
+    }
+    .menuItems{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        top: 100%;
+        background-color: #fef4f4d4;
+        padding: 40px;
+        border-radius: 20px;
+    }
+    .menuItem{
+        margin: 10px 0;
+    }
+    .closeIcon{
+        display: block;
+        background: transparent;
+        border: none;
+        text-align: right;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeIcon>img{
+        width: 30px;
+    }
+}
