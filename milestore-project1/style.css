@@ -65,7 +65,7 @@ main{
     margin: 0 0 20px 0;
 }
 .allSectionContainer{
-    width: 1024px;
+    max-width: 1024px;
 }
 .bannerContainer>img{
     width: 100%;
@@ -142,7 +142,7 @@ background-color: #ddd;
 }
 .box-content{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
 .blogs>img{
@@ -171,7 +171,16 @@ width: 25px;
     text-decoration: none;
 }
 
+footer{
+    background-color: #0000001f;
+    padding: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width: 576px) {
+    main{
+        width: 100%;
+    }
     .responsiveNavIcon{
         display: block;
     }
@@ -181,7 +190,7 @@ width: 25px;
         flex-direction: column;
         right: 0;
         top: 100%;
-        background-color: #fef4f4d4;
+        background-color: #fef6f6d4;
         padding: 40px;
         border-radius: 20px;
     }
@@ -199,5 +208,24 @@ width: 25px;
     }
     .closeIcon>img{
         width: 30px;
+    }
+    .bestBooks{
+        padding: 50px;
+    }
+    .topBooksContainer{
+        grid-template-columns: 1fr;
+    }
+    .box-content{
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+    }
+    .blogs>h1{
+        font-size: 22px;
+    }
+    .contactArea{
+        flex-direction: column;
+    }
+    .messageArea, .contactInfo{
+        width: 100%;
     }
 }
