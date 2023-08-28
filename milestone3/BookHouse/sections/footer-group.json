@@ -5,7 +5,7 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "d63a7e59-7887-4f71-8e7e-c0846f5bd8f1": {
+        "c590707f-d91f-4aec-b144-a26b2fd94258": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
@@ -14,7 +14,7 @@
         }
       },
       "block_order": [
-        "d63a7e59-7887-4f71-8e7e-c0846f5bd8f1"
+        "c590707f-d91f-4aec-b144-a26b2fd94258"
       ],
       "settings": {
         "color_scheme": "inverse",

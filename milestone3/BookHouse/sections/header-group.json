@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to Book House",
+            "text": "Welcome to our Book Shop",
             "link": ""
           }
         }
@@ -35,7 +35,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-2",
-        "menu_color_scheme": "inverse",
+        "menu_color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
